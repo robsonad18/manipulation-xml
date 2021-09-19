@@ -30,6 +30,7 @@ class Xml {
 
       if ($saveFile){
          $dom->save(__DIR__.'/xmls/arquivo.xml');
+         return;
       }
       // imprime xml na tela
       return $dom->saveXML();
